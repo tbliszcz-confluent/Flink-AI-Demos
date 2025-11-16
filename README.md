@@ -2,12 +2,12 @@ This repo contains demos and quick starts for the various built in AI/ML functio
 
 There are currently 7 AI/ML functions specifically for Confluent Flink. The ones bolded are the ones currently with quick starts located above in the .md files 
 
-**AI_COMPLETE: Generate text completions.**
-AI_EMBEDDING: Create embeddings.
-**AI_FORECAST: Forecast trends.**
-AI_TOOL_INVOKE: Invoke MCP tools.
-**ML_DETECT_ANOMALIES: Detect anomalies in your data.**
-ML_EVALUATE: Evaluate the performance of an AI/ML model.
+**AI_COMPLETE: Generate text completions.**  
+AI_EMBEDDING: Create embeddings.  
+**AI_FORECAST: Forecast trends.**  
+AI_TOOL_INVOKE: Invoke MCP tools.  
+**ML_DETECT_ANOMALIES: Detect anomalies in your data.**  
+ML_EVALUATE: Evaluate the performance of an AI/ML model.  
 ML_PREDICT: Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.
 
 
