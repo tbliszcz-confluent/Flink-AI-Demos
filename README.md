@@ -2,7 +2,7 @@ This repo contains demos and quick starts for the various built in AI/ML functio
 
 There are currently several support functions that allow you to connect to external sources using Flink in Confluent Cloud. 
 
-CREATE_CONNECTION -- Allows you to connect to various external model hosting platforms. As of 11/26, the following are supported: AWS Bedrock, AWS Sagemaker, Azure Machine Learning (Azure ML), Azure OpenAI, Google AI, OpenAI, Vertex AI
+CREATE_CONNECTION -- Allows you to connect to various external model hosting platforms. As of 11/26, the following are supported: AWS Bedrock, AWS Sagemaker, Azure Machine Learning (Azure ML), Azure OpenAI, Google AI, OpenAI, Vertex AI  
 CREATE_MODEL -- Allows you to create a model within Flink using a connection to an external model hosting platform. Models are 'imported' and not trained. All training must be done before the model is imported (for example the model is created in AWS and then imported to Flink). 
 
 There are currently 7 AI/ML functions specifically for Confluent Flink. The ones bolded are the ones currently with quick starts located above in the .md files 
