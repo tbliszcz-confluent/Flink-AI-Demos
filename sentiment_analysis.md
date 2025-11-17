@@ -88,8 +88,9 @@ INSERT INTO sentiment
        LATERAL TABLE(AI_COMPLETE('sentiment_analysis', p.sentence)) AS a(sentiment);
 ```
 
-At this point we are able to select * from the table (topic) and see the results that OpenAI gave us back. 
+7. At this point we are able to select * from the table (topic) and see the results that OpenAI gave us back. 
 
 
-
+```
 SELECT * FROM sentiment
+```
