@@ -18,19 +18,19 @@ ML_PREDICT: Run a remote AI/ML model for tasks like predicting outcomes, generat
 
 There are also 12 Machine Learning preprocessing functions: 
 
-ML_Bucketize: Bucketizes numerical values into discrete bins based on split points.
-ML_Character_Text_Splitter: Splits text into chunks based on character count and separators.
-ML_File_Format_Text_Splitter: Splits text into chunks based on specific file format patterns.
-ML_LABEL_ENCODER: Encodes categorical variables into numerical labels.
-ML_MAX_ABS_SCALER: Scales numerical values by their maximum absolute value.
-ML_MIN_MAX_SCALER: Scales numerical values to a specified range using min-max normalization.
-ML_NGRAMS: Generates n-grams from an array of strings.
-ML_NORMALIZER: Normalizes numerical values using p-norm normalization.
-ML_ONE_HOT_ENCODER: Encodes categorical variables into a binary vector representation.
-ML_RECURSIVE_TEXT_SPLITTER: Splits text into chunks using multiple separators recursively.
-ML_ROBUST_SCALER: Scales numerical values using statistics that are robust to outliers.
-ML_STANDARD_SCALER: Standardizes numerical values by removing the mean and scaling to unit variance.
+ML_BUCKETIZE: Bucketizes numerical values into discrete bins based on split points.  
+ML_CHARACTER_TEXT_SPLITTER: Splits text into chunks based on character count and separators.  
+ML_FILE_FORMAT_TEXT_SPLITTER: Splits text into chunks based on specific file format patterns.  
+ML_LABEL_ENCODER: Encodes categorical variables into numerical labels.  
+ML_MAX_ABS_SCALER: Scales numerical values by their maximum absolute value.  
+ML_MIN_MAX_SCALER: Scales numerical values to a specified range using min-max normalization.  
+ML_NGRAMS: Generates n-grams from an array of strings.  
+ML_NORMALIZER: Normalizes numerical values using p-norm normalization.  
+ML_ONE_HOT_ENCODER: Encodes categorical variables into a binary vector representation.  
+ML_RECURSIVE_TEXT_SPLITTER: Splits text into chunks using multiple separators recursively.  
+ML_ROBUST_SCALER: Scales numerical values using statistics that are robust to outliers.  
+ML_STANDARD_SCALER: Standardizes numerical values by removing the mean and scaling to unit variance.  
 
-References: 
-https://docs.confluent.io/cloud/current/ai/builtin-functions/overview.html
+References:   
+https://docs.confluent.io/cloud/current/ai/builtin-functions/overview.html  
 https://docs.confluent.io/cloud/current/flink/reference/functions/ml-preprocessing-functions.html
