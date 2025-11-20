@@ -14,7 +14,7 @@ AI_EMBEDDING: Create embeddings.
 AI_TOOL_INVOKE: Invoke MCP tools.  
 **ML_DETECT_ANOMALIES: Detect anomalies in your data.**  
 ML_EVALUATE: Evaluate the performance of an AI/ML model.  
-ML_PREDICT: Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.
+**ML_PREDICT: Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.**
 
 There are also 12 Machine Learning preprocessing functions: 
 
