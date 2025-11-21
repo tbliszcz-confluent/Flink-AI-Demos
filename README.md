@@ -18,7 +18,7 @@ AI_TOOL_INVOKE: Invoke MCP tools.
 **ML_DETECT_ANOMALIES:** Detect anomalies in your data.  
 ML_EVALUATE: Evaluate the performance of an AI/ML model.  
 **ML_PREDICT:** Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.  
-
+<!--
 There are also 12 Machine Learning preprocessing functions: 
 
 ML_BUCKETIZE: Bucketizes numerical values into discrete bins based on split points.  
@@ -34,6 +34,7 @@ ML_RECURSIVE_TEXT_SPLITTER: Splits text into chunks using multiple separators re
 ML_ROBUST_SCALER: Scales numerical values using statistics that are robust to outliers.  
 ML_STANDARD_SCALER: Standardizes numerical values by removing the mean and scaling to unit variance.  
 
+-->
 References:   
 https://docs.confluent.io/cloud/current/ai/builtin-functions/overview.html  
 https://docs.confluent.io/cloud/current/flink/reference/functions/ml-preprocessing-functions.html
