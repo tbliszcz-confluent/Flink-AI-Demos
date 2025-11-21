@@ -6,7 +6,7 @@ The bolded entries currently have examples in the repo.
 
 There are currently several commands that allow you to work with AI inside of Flink: 
 
-**CREATE_CONNECTION** -- Connect to various external model hosting platforms (Includes model providers as well as hyperscaler model hosting platforms)
+**CREATE_CONNECTION** -- Connect to various external model hosting platforms (Includes model providers as well as hyperscaler model hosting platforms)  
 **CREATE_MODEL** -- Allows you to create a model within Flink using a connection to an external model hosting platform. 
 
 There are currently 7 AI/ML functions specifically for Confluent Flink. The ones bolded are the ones currently with quick starts located above in the .md files 
