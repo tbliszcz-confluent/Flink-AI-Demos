@@ -15,7 +15,7 @@ CREATE CONNECTION open_ai_connection
   );
 ```
 
-After we have created the connection, we can run a LIST connections statement to view all the other connections inside 
+After we have created the connection, we can run a SHOW connections statement to view all the other connections inside 
 
 ```
 SHOW connections
