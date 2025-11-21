@@ -1,20 +1,23 @@
-This repo contains demos and quick starts for the various built in AI/ML functions that are present in Confluent Cloud for use with Flink. To get started esure you have a confluent cluster started with a Flink compute pool located in the same region. Once it is running the above demos can be ran to get an idea of what is possible with Flink in Confluent Cloud or as a quick start. 
+This repo contains demos and quick starts for the various built in AI/ML functions that are present in Confluent Cloud for use with Flink. The purpose is to give you the ability to start using it in a few minutes rather than having to spend time reading the documentation. 
 
-There are currently several support functions that allow you to connect to external sources using Flink in Confluent Cloud: 
+To get started be sure you have a Confluent Cloud Cluster started with a Flink Compute Pool located in the same region. Once it is running the above demos should all be able to work as is in the SQL Workspace of the compute pool (with the exception of obtaining a OpenAI API key). 
 
-CREATE_CONNECTION -- Allows you to connect to various external model hosting platforms. As of 11/26, the following are supported: AWS Bedrock, AWS Sagemaker, Azure Machine Learning (Azure ML), Azure OpenAI, Google AI, OpenAI, Vertex AI  
+The bolded entries currently have examples in the repo. 
 
-CREATE_MODEL -- Allows you to create a model within Flink using a connection to an external model hosting platform. 
+There are currently several commands that allow you to work with AI inside of Flink: 
+
+**CREATE_CONNECTION** -- Connect to various external model hosting platforms (Includes model providers as well as hyperscaler model hosting platforms)
+**CREATE_MODEL** -- Allows you to create a model within Flink using a connection to an external model hosting platform. 
 
 There are currently 7 AI/ML functions specifically for Confluent Flink. The ones bolded are the ones currently with quick starts located above in the .md files 
 
-**AI_COMPLETE: Generate text completions.**  
+**AI_COMPLETE:** Generate text completions.
 AI_EMBEDDING: Create embeddings.  
-**AI_FORECAST: Forecast trends.**  
+**AI_FORECAST:** Forecast trends.
 AI_TOOL_INVOKE: Invoke MCP tools.  
-**ML_DETECT_ANOMALIES: Detect anomalies in your data.**  
+**ML_DETECT_ANOMALIES:** Detect anomalies in your data.
 ML_EVALUATE: Evaluate the performance of an AI/ML model.  
-**ML_PREDICT: Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.**
+**ML_PREDICT:** Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.
 
 There are also 12 Machine Learning preprocessing functions: 
 
