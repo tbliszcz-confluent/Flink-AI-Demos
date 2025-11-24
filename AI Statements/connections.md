@@ -27,6 +27,12 @@ If we want to dig further into the connection, we can get more information
 DESCRIBE connection open_ai_connection
 ```
 
+To update the connections credentials or API key, we can do: 
+
+```
+ALTER CONNECTION open_ai_connection SET ('api-key' = '<new-api-key>');
+```
+
 To delete the connection, we can use: 
 
 ```
