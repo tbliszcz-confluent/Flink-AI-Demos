@@ -1,6 +1,14 @@
-This repo contains demos and quick starts for the various built in AI/ML functions that are present in Confluent Cloud for use with Flink. The purpose is to give you the ability to start using it in a few minutes rather than having to spend time reading the documentation. 
+This repository provides ready-to-run demos and quick-start examples for the built-in AI/ML features available in Confluent Cloud for Flink (e.g., integrations with LLMs, embeddings, etc.).
 
-To get started be sure you have a Confluent Cloud Cluster started with a Flink Compute Pool located in the same region. Once it is running the above demos should all be able to work as is in the SQL Workspace of the compute pool (with the exception of obtaining a OpenAI API key). 
+The goal is to let you try these capabilities in just a few minutes without needing to read extensive documentation.
+
+Prerequisites to run the demos:
+
+* A running Confluent Cloud cluster
+* A Flink Compute Pool in the same region
+* (For some demos) an OpenAI API key
+
+Once those are set up, you can copy-paste and run the examples directly in the SQL Workspace of your Flink Compute Pool.
 
 The bolded entries currently have examples in the repo. 
 
