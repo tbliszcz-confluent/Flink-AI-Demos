@@ -26,7 +26,12 @@ AI_TOOL_INVOKE: Invoke MCP tools.
 **ML_DETECT_ANOMALIES:** Detect anomalies in your data.  
 ML_EVALUATE: Evaluate the performance of an AI/ML model.  
 **ML_PREDICT:** Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.  
+
 <!--
+
+How to get a stats model running in sagemaker and calling it from a stream. (Pull from huggingface, reccomendation type model)
+
+
 There are also 12 Machine Learning preprocessing functions: 
 
 ML_BUCKETIZE: Bucketizes numerical values into discrete bins based on split points.  
