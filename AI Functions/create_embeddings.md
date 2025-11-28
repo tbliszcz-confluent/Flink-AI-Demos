@@ -8,13 +8,24 @@ Like other quickstarts, you will need to get your own OpenAI API key. You must a
 
 1. Create a connection to OpenAI if you do not currently have one set up:
 
+```
+CREATE CONNECTION openai_connection
+  WITH (
+    'type' = 'openai',
+    'endpoint' = 'https://api.openai.com/v1/chat/completions',
+    'api-key' = '<OpenAI_API_KEY>'
+  );
+```
+
 2. Create an embedding model
 
-3. Create the table we will input data to.
+  
 
-4. Input Data
+4. Create the table we will input data to.
 
-5. View results 
+5. Input Data
+
+6. View results 
 
 
 For more information on embeddings: 
