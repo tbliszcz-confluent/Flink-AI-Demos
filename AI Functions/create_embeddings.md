@@ -13,7 +13,7 @@ CREATE CONNECTION openai_connection
   WITH (
     'type' = 'openai',
     'endpoint' = 'https://api.openai.com/v1/embeddings',
-    'api-key' = <OpenAI_API_KEY>'
+    'api-key' = '<OpenAI_API_KEY>'
   );
 ```
 
@@ -36,19 +36,27 @@ WITH (
 SELECT * FROM AI_EMBEDDING('openai_embed', 'This is my text')
 ```
 
-5. Create the table we will input data to.
+4. Create the table we will input data to.
 
 ```
-CREATE TABLE embedding_data
-VALUES
+CREATE TABLE strings (string_number int, embedding_strings string)
 ```
 
-6. Input Data
+5. Input data that we will use to get the embeddings of
 
 ```
-INSERT INTO embedding_data VALUES
+INSERT INTO strings (string_number, embedding_strings) VALUES 
+(1, 'The purple elephant danced under the neon moon.'),
+(2, 'Whispering winds carried secrets through the ancient forest.'),
+(3, 'Quantum cats juggled flaming pianos at midnight.'),
+(4, 'Velvet shadows painted dreams on forgotten walls.'),
+(5, 'Cosmic jellyfish sang operas to the wandering stars.')
+```
 
-8. View results 
+6. View results
+
+```
+```
 
 
 Related Documentation: 
