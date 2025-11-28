@@ -50,6 +50,14 @@ ML_RECURSIVE_TEXT_SPLITTER: Splits text into chunks using multiple separators re
 ML_ROBUST_SCALER: Scales numerical values using statistics that are robust to outliers.  
 ML_STANDARD_SCALER: Standardizes numerical values by removing the mean and scaling to unit variance.  
 
+External Keyword Search: 
+
+KEY_SEARCH_AGG: Perform exact key lookups in external databases like JDBC, REST APIs, MongoDB, and Couchbase.
+TEXT_SEARCH_AGG: Execute full-text searches in external databases like MongoDB, Couchbase, and Elasticsearch.
+VECTOR_SEARCH_AGG: Run semantic similarity searches using vector embeddings in databases like MongoDB, Pinecone, Elasticsearch, and Couchbase.
+
+
+
 -->
 References:   
 https://docs.confluent.io/cloud/current/ai/builtin-functions/overview.html  
