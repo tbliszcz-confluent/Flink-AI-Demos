@@ -6,26 +6,50 @@ In this quickstart for consistency we will use a OpenAI embeddings model to get 
 
 Like other quickstarts, you will need to get your own OpenAI API key. You must also put a couple of dollars on it to be able to pull from the OpenAI API. An OpenAI API Key can be created at: 
 
-1. Create a connection to OpenAI if you do not currently have one set up:
+1. Create a connection to OpenAI if you do not currently have one set up. The important thing to note here is that we are creating a connecton to hit the OpenAI Embeddings endpoint:
 
 ```
 CREATE CONNECTION openai_connection
   WITH (
     'type' = 'openai',
-    'endpoint' = 'https://api.openai.com/v1/chat/completions',
-    'api-key' = '<OpenAI_API_KEY>'
+    'endpoint' = 'https://api.openai.com/v1/embeddings',
+    'api-key' = <OpenAI_API_KEY>'
   );
 ```
 
-2. Create an embedding model
+2. Create an embedding model. We set the connection to the connection created specifically for embeddings above as well as setting the task to embedding. The INPUT and OUTPUT properties are required: 
 
-  
+```
+CREATE MODEL openai_embed
+INPUT (text STRING)
+OUTPUT (response ARRAY<FLOAT>)
+WITH (
+  'provider' = 'openai',
+  'openai.connection' = 'openai_embeddings',
+  'task' = 'embedding'
+);
+```
 
-4. Create the table we will input data to.
+3. We can preview what embeddings will look like with the command below. The first string input is the model name (referenced above). The second string input is the string we are getting embeddings from and can be changed.:
 
-5. Input Data
+```
+SELECT * FROM AI_EMBEDDING('openai_embed', 'This is my text')
+```
 
-6. View results 
+5. Create the table we will input data to.
+
+```
+CREATE TABLE embedding_data
+VALUES
+```
+
+6. Input Data
+
+```
+INSERT INTO embedding_data VALUES
+
+8. View results 
 
 
-For more information on embeddings: 
+Related Documentation: 
+https://docs.confluent.io/cloud/current/flink/reference/functions/model-inference-functions.html#ai-embedding
