@@ -9,7 +9,7 @@ Like other quickstarts, you will need to get your own OpenAI API key. You must a
 1. Create a connection to OpenAI if you do not currently have one set up. The important thing to note here is that we are creating a connecton to hit the OpenAI Embeddings endpoint:
 
 ```
-CREATE CONNECTION openai_connection
+CREATE CONNECTION openai_embeddings
   WITH (
     'type' = 'openai',
     'endpoint' = 'https://api.openai.com/v1/embeddings',
