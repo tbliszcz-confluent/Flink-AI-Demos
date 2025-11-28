@@ -1,7 +1,5 @@
 This Quickstart shows you how you can use the ML_FORECAST() function within Flink ML tools to use an ARIMA model to forecast and predict the future. ARIMA is a common statistic model used to forecast time series. For more information around the actual model please see: 
 
-Forecast Data Trends with Confluent Cloud for Apache Flink | Confluent Documentation ]
-
 In the demo we will have time series of stock prices, and have the ARIMA model attempt to predict the next few values. The prices are more predictable than stock prices are, but this is intentional to show how ARIMA model prediction works. 
 
 All of these commands are made to be ran inside a Flink SQL compute pool connected to a Kafka Cluster in Confluent Cloud 
@@ -70,7 +68,7 @@ INSERT INTO stock_prices (times, val) VALUES
 (CAST('2026-02-18 12:00:00.000' AS TIMESTAMP(3)), 205.99);
 ```
 
-Run the ARIMA forecast model (there are more values that can be customized, read the documentation for more information. 
+Run the ARIMA forecast model. 
 
 ```
 SELECT
