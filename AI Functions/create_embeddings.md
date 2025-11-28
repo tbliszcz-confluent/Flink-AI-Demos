@@ -39,13 +39,13 @@ SELECT * FROM AI_EMBEDDING('openai_embed', 'This is my text')
 4. Create the table we will input data to.
 
 ```
-CREATE TABLE strings (string_number int, embedding_strings string)
+CREATE TABLE strings (id int, embedding_strings string)
 ```
 
-5. Input data that we will use to get the embeddings of
+5. Input data that we will use to get the embeddings of -- enter additional strings if you would like: 
 
 ```
-INSERT INTO strings (string_number, embedding_strings) VALUES 
+INSERT INTO strings (id, embedding_strings) VALUES 
 (1, 'The purple elephant danced under the neon moon.'),
 (2, 'Whispering winds carried secrets through the ancient forest.'),
 (3, 'Quantum cats juggled flaming pianos at midnight.'),
@@ -53,9 +53,10 @@ INSERT INTO strings (string_number, embedding_strings) VALUES
 (5, 'Cosmic jellyfish sang operas to the wandering stars.')
 ```
 
-6. View results
+6. View the table with the string and the embedding results:
 
 ```
+SELECT * FROM strings, LATERAL TABLE(AI_EMBEDDING('openai_embed', embedding_strings))
 ```
 
 
