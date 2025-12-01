@@ -2,7 +2,7 @@ Embeddings in AI are dense, low-dimensional vector representations of high-dimen
 
 In more plain terms -- When you run a piece of data such as an image through an embedding model, you get a short list of numbers that act like a summary of what the picture shows. The numbers then let AI systems do things such as find similar pictures and compare it to other pictures. 
 
-In this quickstart for consistency we will use a OpenAI embeddings model to get embeddings from text we send to it. However you can use other embedding models that are available. 
+We will use a OpenAI embeddings model to get embeddings from text we send to it. However you can use other embedding models that are available. 
 
 Like other quickstarts, you will need to get your own OpenAI API key. You must also put a couple of dollars on it to be able to pull from the OpenAI API. An OpenAI API Key can be created at: https://platform.openai.com/api-keys
 
@@ -58,6 +58,8 @@ INSERT INTO strings (id, embedding_strings) VALUES
 ```
 SELECT * FROM strings, LATERAL TABLE(AI_EMBEDDING('openai_embed', embedding_strings))
 ```
+
+You should see a lot of numbers. These are what embeddings look like once data is transformed. 
 
 
 Related Documentation: 
