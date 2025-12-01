@@ -16,7 +16,6 @@ CREATE TABLE temp (
   temp INT,
   WATERMARK FOR times AS times
 );
-Input the time series values into our table. These would normally be streaming values and inference with the ARIMA model would be done in real time. For demo simplicity we manually enter them: 
 ```
 
 2. Input the time series values into our table. These would normally be streaming values and inference with the ARIMA model would be done in real time. For demo simplicity we manually enter them:
