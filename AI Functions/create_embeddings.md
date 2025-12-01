@@ -1,6 +1,6 @@
 Embeddings in AI are dense, low-dimensional vector representations of high-dimensional data (like words, images, users, or items) that capture their semantic meaning and relationships. 
 
-In more plain terms -- When you run a piece of data such as an image through an embedding model, you get a short list of numbers that act like a summary of what the picture shows. The numbers then let AI systems do things such as find similar pictures and compare it to other pictures. 
+In more plain terms -- When you run a piece of data such as an image through an embedding model, you get a list of numbers that act like a summary of what the picture shows. The numbers then let AI systems do things such as find similar pictures and compare it to other pictures. 
 
 We will use a OpenAI embeddings model to get embeddings from text we send to it. However you can use other embedding models that are available. 
 
