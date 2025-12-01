@@ -1,6 +1,4 @@
-This demo displays how Flink does its Anomaly detection using the ML_DETECT_ANOMALIES() function. It uses an ARIMA model to identify outliers. ARIMA is a common statistical model for time series forecasting. 
-
-https://docs.confluent.io/cloud/current/ai/builtin-functions/detect-anomalies.html
+This demo displays how Flink does its Anomaly detection using the ML_DETECT_ANOMALIES() function. It uses an ARIMA model to identify outliers. ARIMA is a common statistical model for time series forecasting.
 
 The output is a time series chart flagging anomalies. The model is constantly retraining as it runs through new data. 
 
@@ -196,3 +194,7 @@ SELECT
         ) AS anomaly
 FROM windowed_avg;
 ```
+
+Resources: 
+
+https://docs.confluent.io/cloud/current/ai/builtin-functions/detect-anomalies.html
