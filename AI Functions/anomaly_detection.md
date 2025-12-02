@@ -19,7 +19,7 @@ CREATE TABLE temp (
 2. Input the time series values into our table. These would normally be streaming values and inference with the ARIMA model would be done in real time. For demo simplicity we manually enter them:
    
 ```
-INSERT INTO temp (times, vehicle_id, temp) VALUES 
+INSERT INTO temp (times, temp) VALUES 
 (CAST('2025-11-12 12:26:50.221' AS TIMESTAMP(3)), 193),
 (CAST('2025-11-12 12:26:49.256' AS TIMESTAMP(3)), 182),
 (CAST('2025-11-12 12:26:48.359' AS TIMESTAMP(3)), 188),
