@@ -187,7 +187,7 @@ WITH windowed_avg AS (
 SELECT
     window_start,
     avg_temps,
-    ML_DETECT_ANOMALIES(avg_temps, window_time, JSON_OBJECT('confidencePercentage' VALUE 96.0, 'p' VALUE 1, 'q' VALUE 1, 'd' VALUE 1, 'minTrainingSize' VALUE 50))
+    ML_DETECT_ANOMALIES(avg_temps, window_time, JSON_OBJECT('confidencePercentage' VALUE 96.0, 'minTrainingSize' VALUE 50))
         OVER (
             ORDER BY window_time
             RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
