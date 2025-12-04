@@ -26,7 +26,7 @@ AI_TOOL_INVOKE: Invoke MCP tools.
 AI_RUN_AGENT: Execute a streaming agent.  
 **ML_DETECT_ANOMALIES:** Detect anomalies in your data.  
 ML_DETECT_ANOMALIES_ROBUST: Detect multivariate anomalies in your data using a robust approach.
-****ML_EVALUATE****: Evaluate the performance of an AI/ML model.  
+***ML_EVALUATE***: Evaluate the performance of an AI/ML model.  
 **ML_PREDICT:** Run a remote AI/ML model for tasks like predicting outcomes, generating text, and classification.  
 
 Contact: Taylor Bliszcz @ tbliszcz@confluent.io
