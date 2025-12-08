@@ -1,4 +1,4 @@
-This Quickstart allows you to run sentiment analysis on a subset of phrases inside of hosted Flink in Confluent Cloud. There are 20 sentences that when the script is ran allows you to see if the sentence has a positive, negative, or neutral sentiment. 
+This example allows you to run sentiment analysis on a subset of phrases inside of hosted Flink in Confluent Cloud. There are 20 sentences that when the script is ran allows you to see if the sentence has a positive, negative, or neutral sentiment. 
 
 The demo should be able to be ran within any cluster and a Flink compute pool. If you enter the code directly as it is below, with the exception of the API key. It uses the AI_COMPLETE() function to get results.
 
