@@ -1,4 +1,4 @@
-This Quickstart shows you how you can use the ML_FORECAST() function within Flink ML tools to use an ARIMA model to forecast and predict the future. ARIMA is a common statistic model used to forecast time series. For more information around the actual model please see: 
+This example shows you how you can use the ML_FORECAST() function within Flink ML tools to use an ARIMA model to forecast and predict the future. ARIMA is a common statistic model used to forecast time series. For more information around the actual model please see: 
 
 In the demo we will have time series of stock prices, and have the ARIMA model attempt to predict the next few values. The prices are more predictable than stock prices are, but this is intentional to show how ARIMA model prediction works. 
 
