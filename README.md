@@ -1,4 +1,4 @@
-This repository provides ready-to-run demos and quick-start examples for the built-in AI/ML features available in Confluent Cloud for Flink (e.g., integrations with LLMs, embeddings, etc.).
+This repository provides ready-to-run demos and get started examples for the built-in AI/ML features available in Confluent Cloud for Flink (e.g., integrations with LLMs, embeddings, etc.).
 
 The goal is to let you try these capabilities in just a few minutes without needing to read extensive documentation.
 
