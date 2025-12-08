@@ -1,4 +1,4 @@
-This quick start shows how we can use the ML_PREDICT() function to call a model that we have created inside Flink. 
+This example shows how we can use the ML_PREDICT() function to call a model that we have created inside Flink. 
 
 In order to run this demo properly you will need an OpenAI Api key, which can be gotten here: https://platform.openai.com/api-keys . There needs to be a few dollars deposited on the account. 
 
