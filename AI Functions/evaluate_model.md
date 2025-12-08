@@ -1,6 +1,6 @@
 Once we have a model, we want to be able to test its accuracy. ML_EVALUATE() returns different metrics depending on what type of model we are trying to evaluate. 
 
-The funtion works with Classification, Clustering, Embedding, Regression, and Text Generation models. In this quickstart we will use a text generation sentiment analysis model that was used elsewhere in this repo. 
+The funtion works with Classification, Clustering, Embedding, Regression, and Text Generation models. In this example we will use a text generation sentiment analysis model that was used elsewhere in this repo. 
 
 What is returned is a little different depending on the model type. As we are running this against what we consider a text generation model, we will get: Mean BLEU (bilingual evaluation understudy), Mean ROUGE (Recall-Oriented Understudy for Gisting Evaluation), and Mean Semantic Similarity (Check out the documentation for more information).
 
