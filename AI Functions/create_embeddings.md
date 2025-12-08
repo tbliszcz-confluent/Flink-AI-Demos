@@ -4,7 +4,7 @@ In more plain terms -- When you run a piece of data such as an image through an 
 
 We will use a OpenAI embeddings model to get embeddings from text we send to it. However you can use other embedding models that are available. 
 
-Like other quickstarts, you will need to get your own OpenAI API key. You must also put a couple of dollars on it to be able to pull from the OpenAI API. An OpenAI API Key can be created at: https://platform.openai.com/api-keys
+For this example, you will need to get your own OpenAI API key. You must also put a couple of dollars on it to be able to pull from the OpenAI API. An OpenAI API Key can be created at: https://platform.openai.com/api-keys
 
 1. Create a connection to OpenAI if you do not currently have one set up. The important thing to note here is that we are creating a connecton to hit the OpenAI Embeddings endpoint:
 
