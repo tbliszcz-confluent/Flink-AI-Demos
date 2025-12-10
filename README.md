@@ -32,6 +32,8 @@ ML_DETECT_ANOMALIES_ROBUST: Detect multivariate anomalies in your data using a r
 
 Contact: Taylor Bliszcz @ tbliszcz@confluent.io
 
+View the official Confluent Quickstart here: https://github.com/confluentinc/quickstart-streaming-agents
+
 <!--
 
 How to get a stats model running in sagemaker and calling it from a stream. (Pull from huggingface, reccomendation type model)
@@ -58,7 +60,7 @@ KEY_SEARCH_AGG: Perform exact key lookups in external databases like JDBC, REST 
 TEXT_SEARCH_AGG: Execute full-text searches in external databases like MongoDB, Couchbase, and Elasticsearch.
 VECTOR_SEARCH_AGG: Run semantic similarity searches using vector embeddings in databases like MongoDB, Pinecone, Elasticsearch, and Couchbase.
 
-View the official Confluent Quickstart here: https://github.com/confluentinc/quickstart-streaming-agents
+
 
 -->
 References:   
