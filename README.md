@@ -1,4 +1,5 @@
 This repository provides ready-to-run demos and get started examples for the built-in AI/ML features available in Confluent Cloud for Flink (e.g., integrations with LLMs, embeddings, etc.).
+After the announcement of the IBM acquisition with Confluent this repo will be forked with the acquisition. 
 
 The goal is to let you try these capabilities in just a few minutes without needing to read extensive documentation.
 
@@ -57,7 +58,7 @@ KEY_SEARCH_AGG: Perform exact key lookups in external databases like JDBC, REST 
 TEXT_SEARCH_AGG: Execute full-text searches in external databases like MongoDB, Couchbase, and Elasticsearch.
 VECTOR_SEARCH_AGG: Run semantic similarity searches using vector embeddings in databases like MongoDB, Pinecone, Elasticsearch, and Couchbase.
 
-
+View the official Confluent Quickstart here: https://github.com/confluentinc/quickstart-streaming-agents
 
 -->
 References:   
